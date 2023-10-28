@@ -36,19 +36,31 @@ h6 {
     font-family: 'Playfair Display';
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
 header>div {
     color: white;
     background: #474747;
     padding: 12px 24px;
-    display: flex;
     justify-content: space-between;
     font-size: 12px;
 }
 
-header a {
+div>div>a {
     margin: 0 12px;
     color: white;
-    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+div>div>a:hover {
+    text-decoration: underline;
 }
 
 header>div p {
@@ -58,4 +70,55 @@ header>div p {
 
 div>i {
     margin-left: 6px;
+    transition: all 300ms ease-in-out;
+}
+
+div>i:hover {
+    transform: scale(1.25);
+}
+
+nav {
+    padding: 12px 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    align-items: center;
+    gap: 8px;
+}
+
+.logo h2 {
+    font-family: 'Playfair Display Semibold';
+    font-size: 32px;
+}
+
+.navigationMenu {
+    gap: 8px;
+    align-items: center;
+    font-family: 'DM Sans Medium';
+}
+
+.navigationMenu li {
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+.navigationMenu li:hover {
+    background: #dbdfd0;
+}
+
+nav button {
+    background: transparent;
+    border: 2px solid black;
+    padding: 8px 24px;
+    border-radius: 18px;
+    height: fit-content;
+    font-family: 'DM Sans Bold';
+    transition: all 400ms ease-in-out;
+}
+
+nav button:hover {
+    background: black;
+    color: white;
 }
