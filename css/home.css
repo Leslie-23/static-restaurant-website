@@ -1,5 +1,5 @@
 .heroSection {
-    height: 75vh;
+    height: 55vh;
     background: url(/img/image\ 110.png);
     background-position: center top;
     display: flex;
@@ -32,4 +32,32 @@ a.ctaBtn {
 a.ctaBtn:hover {
     color: #ad343e;
     text-decoration: none;
+}
+
+.heroSection+section>div {
+    justify-content: center;
+    margin: 32px auto;
+    gap: 12px;
+}
+
+.heroSection+section>div>div {
+    flex-basis: 15%;
+    padding: 12px 24px;
+    border: 1px solid #dbdfd0;
+    box-shadow: 1px 1px 1px 1px #0000001f;
+    color: #474747;
+}
+
+.heroSection+section>div>div>* {
+    margin: 12px 0;
+}
+
+.heroSection+section a {
+    color: #ad343e;
+    font-family: 'DM Sans Bold';
+}
+
+.heroSection+section h3 {
+    color: black;
+    font-family: 'DM Sans Bold';
 }

@@ -46,6 +46,16 @@ a {
     flex-wrap: wrap;
 }
 
+section {
+    padding: 56px 32px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section>h2 {
+    font-size: 32px;
+}
+
 /* Navigation Styling */
 header>div {
     color: white;
