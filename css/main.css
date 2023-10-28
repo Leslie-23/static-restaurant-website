@@ -75,7 +75,8 @@ div>i {
     transition: all 300ms ease-in-out;
 }
 
-div>i:hover {
+div>i:hover,
+.socials p:hover {
     transform: scale(1.25);
 }
 
@@ -240,6 +241,7 @@ footer>* {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 400ms ease-in-out;
 }
 
 footer ul {
@@ -252,6 +254,10 @@ footer ul>li {
 
 footer ul>li>a {
     color: #dbdfd0;
+}
+
+footer ul>li>a:hover {
+    text-decoration: underline;
 }
 
 .heading {
