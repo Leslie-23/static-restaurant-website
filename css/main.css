@@ -112,13 +112,13 @@ nav {
     background: #dbdfd0;
 }
 
-.fa-bars {
+.fa-solid.fa-bars {
     display: none;
     cursor: pointer;
     padding: 8px;
 }
 
-.fa-xmark {
+.fa-solid.fa-xmark {
     display: none;
     cursor: pointer;
 }
@@ -128,7 +128,7 @@ nav {
     color: white;
 }
 
-nav button {
+.basicBtn {
     background: transparent;
     border: 2px solid black;
     padding: 8px 24px;
@@ -138,9 +138,22 @@ nav button {
     transition: all 400ms ease-in-out;
 }
 
-nav button:hover {
+.basicBtn:hover {
     background: black;
     color: white;
+    text-decoration: none;
+}
+
+.ctaBtn {
+    background: #ad343e;
+    color: white;
+    border: none;
+}
+
+.ctaBtn:hover {
+    border: 2px solid #ad343e;
+    background: transparent;
+    color: #ad343e;
 }
 
 @media screen and (max-width:450px) {

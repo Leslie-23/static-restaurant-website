@@ -1,0 +1,35 @@
+.heroSection {
+    height: 75vh;
+    background: url(/img/image\ 110.png);
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heroSection div {
+    width: 350px;
+}
+
+.heroSection div>* {
+    margin: 24px 0;
+}
+
+.heroSection h1 {
+    font-size: 40px;
+}
+
+.heroSection a {
+    color: black;
+}
+
+a.ctaBtn {
+    color: white;
+}
+
+a.ctaBtn:hover {
+    color: #ad343e;
+    text-decoration: none;
+}
