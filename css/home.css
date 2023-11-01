@@ -117,3 +117,32 @@ a.ctaBtn:hover {
     margin-top: -80px;
     background: #474747;
 }
+
+.sect3+section {
+    text-align: left;
+}
+
+.sect3+section>h2 {
+    margin-left: 130px;
+    width: 350px;
+}
+
+.events {
+    padding: 12px 24px;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.events>div {
+    flex-basis: 20%;
+}
+
+.events>div>* {
+    margin: 8px 0;
+}
+
+.events img {
+    width: 100%;
+    border-radius: 8px;
+}
