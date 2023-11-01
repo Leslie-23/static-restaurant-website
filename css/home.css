@@ -61,3 +61,59 @@ a.ctaBtn:hover {
     color: black;
     font-family: 'DM Sans Bold';
 }
+
+.contact {
+    background: #474747;
+    color: white;
+    width: fit-content;
+    padding: 12px 24px;
+}
+
+.contact i+p {
+    color: #dbdfd0;
+}
+
+.contact a {
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact>* {
+    margin: 10px 0;
+}
+
+.sect3 {
+    align-items: center;
+    gap: 24px;
+    background: #F9F9F7;
+}
+
+.sect3 h2~* {
+    margin: 12px 0;
+}
+
+.sect3>div+div {
+    padding-right: 24px;
+    text-align: left;
+}
+
+.sect3>* {
+    flex-basis: 45%;
+}
+
+.sect3 .image {
+    border-radius: 18px;
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    background: url(../img/image\ 111.png);
+}
+
+.sect3 .image+div {
+    z-index: 1;
+    width: 40%;
+    margin-left: 300px;
+    margin-top: -80px;
+    background: #474747;
+}
