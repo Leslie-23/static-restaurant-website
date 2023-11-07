@@ -66,17 +66,26 @@ a.ctaBtn:hover {
     background: #474747;
     color: white;
     width: fit-content;
-    padding: 12px 24px;
+    padding: 32px 24px;
 }
 
 .contact i+p {
     color: #dbdfd0;
+    width: 90%;
+    text-align: left;
 }
 
 .contact a {
     margin: 10px 0;
     justify-content: space-between;
     align-items: center;
+}
+
+.contact>h3 {
+    color: white;
+    font-family: 'DM Sans Bold';
+    text-align: left;
+    margin-bottom: 18px;
 }
 
 .contact>* {
@@ -112,9 +121,10 @@ a.ctaBtn:hover {
 
 .sect3 .image+div {
     z-index: 1;
-    width: 40%;
-    margin-left: 300px;
-    margin-top: -80px;
+    width: 50%;
+    margin-left: 250px;
+    margin-top: -100px;
+    border-radius: 8px;
     background: #474747;
 }
 
@@ -145,4 +155,24 @@ a.ctaBtn:hover {
 .events img {
     width: 100%;
     border-radius: 8px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+.div2 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.div3 {
+    grid-area: 1 / 2 / 3 / 3;
 }
