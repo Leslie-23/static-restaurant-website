@@ -3,7 +3,7 @@ A simple static website that allows restaurants to showcase their menus and coll
 
 ![](/Bistro-Bliss-Restaurant.png)
 
-[View Demo]()
+[View Demo](https://muthonimn.github.io/static-restaurant-website/)
 
 ## Tech Stack
 - HTML

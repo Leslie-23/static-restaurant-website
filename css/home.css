@@ -1,6 +1,6 @@
 .heroSection {
     height: 55vh;
-    background: url(/img/image\ 110.png);
+    background: url(../img/image\ 110.png);
     background-position: center top;
     display: flex;
     flex-direction: column;
