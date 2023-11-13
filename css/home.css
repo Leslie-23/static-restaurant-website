@@ -309,3 +309,35 @@ a.ctaBtn:hover {
 .features .name>* {
     margin: 7px 0;
 }
+
+.features+section {
+    align-items: center;
+}
+
+.flex>section {
+    flex-basis: 40%;
+    text-align: left;
+}
+
+.stats {
+    margin: 24px 0 0;
+    gap: 24px;
+}
+
+.stats>div {
+    background: white;
+    flex-basis: 35%;
+    padding: 32px 24px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px #0000001f;
+}
+
+.stats h3 {
+    margin-bottom: 18px;
+    font-size: 32px;
+}
+
+.flex>section+img {
+    border-radius: 16px;
+}
