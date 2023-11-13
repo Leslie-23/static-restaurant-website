@@ -344,8 +344,21 @@ a.ctaBtn:hover {
 }
 
 @media screen and (max-width:600px) {
+    section {
+        padding: 32px 24px;
+    }
+
     body {
         overflow-x: none;
+    }
+
+    .heroSection+section>div>div,
+    .sect3+section>.events>* {
+        flex-basis: 40%;
+    }
+
+    .sect3+section>h2 {
+        margin-left: 0;
     }
 
     .sect3>*,
@@ -371,6 +384,14 @@ a.ctaBtn:hover {
         display: block;
         width: fit-content;
         margin: 24px auto 0;
+    }
+
+    .parent {
+        width: 100%;
+    }
+
+    .parent+div {
+        width: 100%;
     }
 
     .features>div {
