@@ -342,3 +342,49 @@ a.ctaBtn:hover {
 .flex>section+img {
     border-radius: 16px;
 }
+
+@media screen and (max-width:600px) {
+    body {
+        overflow-x: none;
+    }
+
+    .sect3>*,
+    .sect3>div+div,
+    .features>div,
+    .review-cards>div {
+        flex-basis: 100%;
+    }
+
+    .sect3 .image {
+        width: 100%;
+    }
+
+    .sect3 .image+div {
+        margin-left: 190px;
+    }
+
+    .sect3>div+div {
+        padding: 0;
+    }
+
+    .sect3 .basicBtn {
+        display: block;
+        width: fit-content;
+        margin: 24px auto 0;
+    }
+
+    .features>div {
+        margin: 8px 0;
+        gap: 24px;
+    }
+
+    .features+section,
+    .features+section>section {
+        padding: 32px 16px;
+        flex-basis: 100%;
+    }
+
+    .features+section>img {
+        width: 100%;
+    }
+}
