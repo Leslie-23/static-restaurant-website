@@ -50,6 +50,10 @@ a {
     color: #474747;
 }
 
+.gray-bkg {
+    background: #F9F9F7;
+}
+
 section {
     padding: 56px 32px;
     text-align: center;
