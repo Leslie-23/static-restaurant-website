@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'Playfair Display';
-    src: url(/fonts/PlayfairDisplay-Regular.ttf);
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
 }
 
 @font-face {
     font-family: 'DM Sans Regular';
-    src: url(/fonts/DMSans_18pt-Regular.ttf);
+    src: url(../fonts/DMSans_18pt-Regular.ttf);
 }
 
 @font-face {
     font-family: 'DM Sans Medium';
-    src: url(/fonts/DMSans_18pt-Medium.ttf);
+    src: url(../fonts/DMSans_18pt-Medium.ttf);
 }
 
 @font-face {
     font-family: 'DM Sans Bold';
-    src: url(/fonts/DMSans_18pt-Bold.ttf);
+    src: url(../fonts/DMSans_18pt-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Playfair Display Semibold';
-    src: url(/fonts/PlayfairDisplay-SemiBoldItalic.ttf);
+    src: url(../fonts/PlayfairDisplay-SemiBoldItalic.ttf);
 }
 
 body {
