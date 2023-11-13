@@ -283,3 +283,29 @@ a.ctaBtn:hover {
     justify-content: center;
     align-items: center;
 }
+
+.features {
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    text-align: left;
+}
+
+.features>* {
+    flex-basis: 25%;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.features p {
+    width: 200px;
+}
+
+.features h4 {
+    font-weight: bold;
+}
+
+.features .name>* {
+    margin: 7px 0;
+}
