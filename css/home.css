@@ -202,6 +202,7 @@ a.ctaBtn:hover {
 
 .icon-list .fa-solid,
 .icon-list .fa-regular {
+    display: flex;
     background: #ad343e;
     color: #F9F9F7;
     width: 32px;
