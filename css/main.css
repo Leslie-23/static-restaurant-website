@@ -25,6 +25,7 @@
 
 body {
     font-family: 'DM Sans Regular';
+    position: relative;
 }
 
 h1,
@@ -207,19 +208,23 @@ nav {
         display: none;
     }
 
-    .fa-bars {
+    .fa-solid.fa-bars {
         display: block;
     }
 
 
     .mobileView {
         display: block;
-        height: 50vh;
-        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        bottom: 50vh;
+        background: #F9F9F7;
     }
 
     .mobileView>* {
-        margin: 10px 0;
+        margin: 24px 0;
         width: fit-content;
     }
 
